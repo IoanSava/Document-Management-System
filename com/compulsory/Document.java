@@ -1,5 +1,6 @@
 package com.compulsory;
 
+import com.exceptions.DuplicateTagException;
 import lombok.Getter;
 
 import java.io.Serializable;
@@ -27,7 +28,11 @@ public class Document implements Serializable {
         this.path = path;
     }
 
-    public void addTag(String key, Object value) {
+    public void addTag(String key, Object value) throws DuplicateTagException {
+        if (tags.containsKey(key)) {
+            throw new DuplicateTagException(this.name);
+        }
+
         tags.put(key, value);
     }
 

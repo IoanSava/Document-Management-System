@@ -1,5 +1,7 @@
 package com.compulsory;
 
+import com.exceptions.NotFoundException;
+
 import java.awt.*;
 import java.io.*;
 import java.net.URI;

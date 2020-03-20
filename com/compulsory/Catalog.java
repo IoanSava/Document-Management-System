@@ -1,5 +1,7 @@
 package com.compulsory;
 
+import com.exceptions.DuplicateDocumentException;
+import com.exceptions.NotFoundException;
 import lombok.Getter;
 
 import java.io.Serializable;
@@ -26,7 +28,10 @@ public class Catalog implements Serializable {
         this.path = path;
     }
 
-    public void addDocument(Document document) {
+    public void addDocument(Document document) throws DuplicateDocumentException {
+        if (documents.contains(document)) {
+            throw new DuplicateDocumentException(this.name);
+        }
         documents.add(document);
     }
 
@@ -36,10 +41,13 @@ public class Catalog implements Serializable {
      * @return the Document with the corresponding {@param id}
      */
     public Document findById(String id) {
-        return documents.stream()
-                .filter(document -> document.getId().equals(id))
-                .findFirst()
-                .orElse(null);
+        for (Document document : documents) {
+            if (document.getId().equals(id)) {
+                return document;
+            }
+        }
+
+        throw new NotFoundException("Document with id " + id + " not found");
     }
 
     @Override
