@@ -1,0 +1,15 @@
+CATALOG: Java Resources
+Number of documents: 2
+
+#id: java1
+#name: Java Course 1
+#path: https://profs.info.uaic.ro/~acf/java/slides/en/intro_slide_en.pdf
+Number of tags: 2
+topic : Java
+type : Slides
+
+#id: java2
+#name: Java Course 1
+#path: https://profs.info.uaic.ro/~acf/java/slides/en/intro_slide_en.pdf
+Number of tags: 0
+
