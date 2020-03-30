@@ -1,6 +1,8 @@
-package com.compulsory;
+package com.helpers;
 
 import com.exceptions.NotFoundException;
+import com.models.Catalog;
+import com.models.Document;
 
 import java.awt.*;
 import java.io.*;

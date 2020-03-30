@@ -1,4 +1,4 @@
-package com.optional;
+package com.helpers;
 
 import java.util.Scanner;
 

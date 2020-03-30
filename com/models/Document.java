@@ -1,4 +1,4 @@
-package com.compulsory;
+package com.models;
 
 import com.exceptions.DuplicateTagException;
 import com.exceptions.NotFoundException;
@@ -16,7 +16,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-import static com.optional.CatalogUtilPlainText.isValidUrl;
+import static com.helpers.CatalogUtilPlainText.isValidUrl;
 
 /**
  * A Documents represents an entry in a Catalog.

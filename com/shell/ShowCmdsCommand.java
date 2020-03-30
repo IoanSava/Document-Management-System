@@ -1,6 +1,6 @@
 package com.shell;
 
-import com.compulsory.Catalog;
+import com.models.Catalog;
 
 /**
  * This command can be used to see available commands

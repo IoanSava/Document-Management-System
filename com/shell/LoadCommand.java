@@ -1,9 +1,9 @@
 package com.shell;
 
-import com.compulsory.Catalog;
+import com.models.Catalog;
 import com.exceptions.InvalidCatalogFileException;
 import com.exceptions.InvalidFormatException;
-import com.optional.CatalogUtilPlainText;
+import com.helpers.CatalogUtilPlainText;
 
 import java.io.IOException;
 import java.nio.file.InvalidPathException;

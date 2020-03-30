@@ -1,10 +1,10 @@
 package com.shell;
 
-import com.compulsory.Catalog;
-import com.compulsory.Document;
+import com.models.Catalog;
+import com.models.Document;
 import com.exceptions.InvalidFormatException;
 import com.exceptions.NotFoundException;
-import com.optional.CatalogUtilPlainText;
+import com.helpers.CatalogUtilPlainText;
 
 /**
  * This command can be used to view a document

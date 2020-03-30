@@ -1,12 +1,12 @@
 package com;
 
-import com.compulsory.Catalog;
-import com.compulsory.CatalogUtilBinary;
-import com.compulsory.Document;
+import com.models.Catalog;
+import com.helpers.CatalogUtilBinary;
+import com.models.Document;
 import com.exceptions.InvalidCatalogFileException;
 import com.exceptions.NotFoundException;
-import com.optional.CatalogUtilPlainText;
-import com.optional.Util;
+import com.helpers.CatalogUtilPlainText;
+import com.helpers.Util;
 import com.shell.*;
 
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.compulsory;
+package com.models;
 
 import com.exceptions.DuplicateDocumentException;
 import com.exceptions.NotFoundException;

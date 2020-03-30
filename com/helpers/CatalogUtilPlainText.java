@@ -1,7 +1,7 @@
-package com.optional;
+package com.helpers;
 
-import com.compulsory.Catalog;
-import com.compulsory.Document;
+import com.models.Catalog;
+import com.models.Document;
 import com.exceptions.InvalidCatalogFileException;
 import com.exceptions.NotFoundException;
 

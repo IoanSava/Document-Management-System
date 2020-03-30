@@ -1,7 +1,7 @@
 package com.shell;
 
-import com.compulsory.Catalog;
-import com.optional.CatalogUtilPlainText;
+import com.models.Catalog;
+import com.helpers.CatalogUtilPlainText;
 
 /**
  * This command can be used to save a catalog

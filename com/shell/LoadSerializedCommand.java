@@ -1,7 +1,7 @@
 package com.shell;
 
-import com.compulsory.Catalog;
-import com.compulsory.CatalogUtilBinary;
+import com.models.Catalog;
+import com.helpers.CatalogUtilBinary;
 import com.exceptions.InvalidFormatException;
 
 import java.io.IOException;

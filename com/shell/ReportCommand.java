@@ -1,7 +1,7 @@
 package com.shell;
 
-import com.compulsory.Catalog;
-import com.compulsory.Document;
+import com.models.Catalog;
+import com.models.Document;
 import com.exceptions.InvalidFormatException;
 import com.exceptions.InvalidReportFormatException;
 

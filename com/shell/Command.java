@@ -1,6 +1,6 @@
 package com.shell;
 
-import com.compulsory.Catalog;
+import com.models.Catalog;
 import lombok.Getter;
 
 /**
